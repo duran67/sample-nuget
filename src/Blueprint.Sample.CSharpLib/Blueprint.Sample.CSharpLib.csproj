@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Duran</Authors>
+    <Description>Blueprint nuget package. Just for testing different aspects of nuget packaging.</Description>
+    <PackageTags>C# nuget blueprint</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Source Link -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Enable GitLab nuget Source Link support -->
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+
+</Project>
