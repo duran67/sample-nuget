@@ -8,10 +8,11 @@
         /// <summary>
         /// Say hello.
         /// </summary>
+        /// <remarks>Changed 2020-05-29 10:23:35</remarks>
         /// <returns>The full sentence.</returns>
         public string Hello()
         {
-            return "Hello world!";
+            return "Hello world from GitHub!";
         }
 
         /// <summary>
@@ -20,7 +21,7 @@
         /// <returns>The full sentence.</returns>
         public string SoLong()
         {
-            return "So long world!";
+            return "So long GitHub!";
         }
     }
 }
