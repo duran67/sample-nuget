@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blueprint.Sample.CSharpLib", "src\Blueprint.Sample.CSharpLib\Blueprint.Sample.CSharpLib.csproj", "{E405BD2A-4ED0-48CC-9FE0-8EB51C7C2213}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blueprint.Sample.Console", "samples\Blueprint.Sample.Console\Blueprint.Sample.Console.csproj", "{6B782597-61B2-475B-BD3A-AD0FC6BB142B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,18 +27,6 @@ Global
 		{E405BD2A-4ED0-48CC-9FE0-8EB51C7C2213}.Release|x64.Build.0 = Release|Any CPU
 		{E405BD2A-4ED0-48CC-9FE0-8EB51C7C2213}.Release|x86.ActiveCfg = Release|Any CPU
 		{E405BD2A-4ED0-48CC-9FE0-8EB51C7C2213}.Release|x86.Build.0 = Release|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Debug|x64.Build.0 = Debug|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Debug|x86.Build.0 = Debug|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Release|x64.ActiveCfg = Release|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Release|x64.Build.0 = Release|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Release|x86.ActiveCfg = Release|Any CPU
-		{6B782597-61B2-475B-BD3A-AD0FC6BB142B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
